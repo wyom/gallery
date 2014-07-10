@@ -133,6 +133,15 @@ header.address img, footer img {
   }
 }
 
+@media screen and (max-width: 900px) {
+  section#visualizations > ul li {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 30px 2% 0 0;
+  }
+}
+
 @media screen and (max-width: 600px) {
   section#visualizations > ul li {
     display: inline-block;
